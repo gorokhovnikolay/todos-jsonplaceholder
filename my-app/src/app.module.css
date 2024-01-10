@@ -1,0 +1,64 @@
+.app {
+	text-align: center;
+}
+
+.isLoading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 25px;
+	height: 25px;
+	border: 5px solid #0093ff;
+	border-left-color: transparent;
+	border-radius: 50%;
+	transform: translate(50%, 50%);
+	animation: isloading 1s infinite;
+}
+
+@keyframes isloading {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.container_todos,
+.add_todos {
+	max-width: 600px;
+	margin: auto;
+	text-align: left;
+}
+.container_todo {
+	padding: 10px;
+	margin-top: 5px;
+}
+.todo_checkbox {
+	margin-right: 15px;
+}
+.todo_title__checked {
+	text-decoration: line-through;
+}
+.add_todo__bock {
+	display: flex;
+}
+.add_todo__input {
+	width: 100%;
+	border: none;
+	outline-color: transparent;
+	border-bottom: 1px solid #0093ff;
+	min-height: 30px;
+}
+.add_todo__button {
+	background: transparent;
+	border: 1px solid #0093ff;
+	cursor: pointer;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.add_todo__button:active {
+	background: #0093ff;
+	color: white;
+}

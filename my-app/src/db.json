@@ -1,0 +1,14 @@
+{
+  "produsts": [
+    {
+      "name": "Phone",
+      "price": -100,
+      "id": 2
+    },
+    {
+      "name": "Утюг",
+      "price": 1200,
+      "id": "B2lk0fZ"
+    }
+  ]
+}
